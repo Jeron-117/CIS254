@@ -1,0 +1,87 @@
+
+public class Stüssy {
+    public static void main(String args[]) {
+
+        System.out.print("       ");
+        System.out.print("JJ");
+        System.out.println("       ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.println("    ");
+        System.out.print("  ");
+        System.out.print("JJ");
+        System.out.print("        ");
+        System.out.print("JJ");
+        System.out.println("  ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.println("JJ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.println("JJ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.println("JJ");
+        System.out.print("  ");
+        System.out.print("JJ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.print("  ");
+        System.out.print("JJ");
+        System.out.println("  ");
+        System.out.print("   ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.println("    ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.println("   ");
+        System.out.print("  ");
+        System.out.print("JJ");
+        System.out.print("  ");
+        System.out.print("JJ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.println("  ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.println("JJ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.println("JJ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.print("JJ");
+        System.out.print("     ");
+        System.out.println("JJ");
+        System.out.print("  ");
+        System.out.print("JJ");
+        System.out.print("        ");
+        System.out.print("JJ");
+        System.out.println("  ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.print("    ");
+        System.out.print("JJ");
+        System.out.println("    ");
+        System.out.print("       ");
+        System.out.print("JJ");
+        System.out.println("       ");
+
+    }
+}
