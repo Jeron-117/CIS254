@@ -12,15 +12,13 @@
  */
 public class PromptFour {
     public static void main(String[] args) {
-        int max = Integer.MIN_VALUE;
-        int value;
-
         if (args.length == 0) {
             System.err.println("Usage: java PromptFour <numbers>");
         } 
         else {
+            int max = Integer.MIN_VALUE;
             for (String arg : args) {
-                value = Integer.parseInt(arg);
+                int value = Integer.parseInt(arg);
                 if (value > max) {
                     max = value;
                 }
