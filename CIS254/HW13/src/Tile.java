@@ -7,6 +7,11 @@ public class Tile {
         this.value = value;
     }
 
+    public Tile(Tile obj) {
+        this.letter = obj.letter;
+        this.value = obj.value;
+    }
+
     public void setLetter(char letter) {
         this.letter = letter;
     }
@@ -28,7 +33,7 @@ public class Tile {
     }
 
     public String toString() {
-        return String.format("%c: %d", letter, value);
+        return String.format("%c(value: %d)", letter, value);
     }
     
 }
