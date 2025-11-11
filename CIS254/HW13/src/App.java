@@ -5,12 +5,7 @@ public class App {
     private static ArrayList<Tile> tiles = new ArrayList<Tile>();
     public static void main(String[] args) throws Exception {
         System.out.println("scrab scrab");
-        Tile tileJ = new Tile('J', 8);
-        Tile tileE = new Tile('E', 1);
-        Tile tileR = new Tile('R', 1);
-        Tile tileO = new Tile('O', 1);
-        Tile tileN = new Tile('N', 1);
-        System.out.println("My first name tile value: " + tileJ + tileE + tileR + tileO + tileN);
+        System.out.println("My first name tile value: ");
         tiles = new ArrayList<Tile>();
         createAllTiles(tiles);
         ArrayList<Tile> hand = get7Tiles(tiles);
