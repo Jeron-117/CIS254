@@ -1,18 +1,41 @@
 import java.util.Random;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class App {
     private static ArrayList<Tile> tiles = new ArrayList<Tile>();
     public static void main(String[] args) throws Exception {
-        System.out.println("scrab scrab");
-        System.out.println("My first name tile value: ");
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("get ready to scrab");
+        System.out.println("Your awesome tiles: ");
         tiles = new ArrayList<Tile>();
+
         createAllTiles(tiles);
         ArrayList<Tile> hand = get7Tiles(tiles);
+
         for (int i=0; i<hand.size(); i++) {
             System.out.println(hand.get(i));
         }
 
+        System.out.print("Your word: ");
+        String makeshiftWord = in.nextLine().toUpperCase();
+
+        for (int i=0; i<makeshiftWord.length(); i++) {
+            char letter = makeshiftWord.charAt(i);
+            boolean wordFinder = false;
+
+                if (hand.get(i).getLetter() == letter) {
+                    wordFinder = true;
+                    hand.remove(i);
+                    System.out.println("You're exceeding your limits pal.");
+                }
+                else {
+                    System.out.println("Nice word chump.");
+                }
+            }
+
+        in.close();
     }
 
     public static ArrayList<Tile> createAllTiles(ArrayList<Tile> allTiles) {

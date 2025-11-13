@@ -33,7 +33,7 @@ public class Tile {
     }
 
     public String toString() {
-        return String.format("%c(value: %d)", letter, value);
+        return String.format("%c", letter);
     }
     
 }
