@@ -25,18 +25,37 @@ public class App {
             char letter = makeshiftWord.charAt(i);
             boolean wordFinder = false;
 
-                if (hand.get(i).getLetter() == letter) {
+            for (int j=0; j<hand.size(); j++) {
+                if (letter == hand.get(j).getLetter()) {
                     wordFinder = true;
-                    hand.remove(i);
-                    System.out.println("You're exceeding your limits pal.");
-                }
-                else {
-                    System.out.println("Nice word chump.");
+                    hand.remove(j);
+                    break;
+                }   
+            }
+
+            if (wordFinder == false) {
+                System.out.println("You're exceeding your limits pal.");
+            }
+            else if (wordFinder == true && i == makeshiftWord.length() - 1) {
+                System.out.println("That totally works!");
+            }
+        }
+
+        int totalScore = 0;
+
+        for (int k=0; k<makeshiftWord.length(); k++) {
+            char letterScore = makeshiftWord.charAt(k);
+            for (int l=0; l<tiles.size(); l++) {
+                if (letterScore == tiles.get(l).getLetter()) {
+                    totalScore += tiles.get(l).getValue();
                 }
             }
+        }
+        System.out.println("Your current score is: " + totalScore);
 
         in.close();
     }
+    
 
     public static ArrayList<Tile> createAllTiles(ArrayList<Tile> allTiles) {
         allTiles.add(new Tile('A', 1));
