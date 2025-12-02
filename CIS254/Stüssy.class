@@ -25,19 +25,15 @@ public class MainFrame extends JFrame {
     JButton btnOk = 
     bottomPanel.add(btnOk);
     btnOk.setPreferreeSize(new Dimension());
-    btnOk.addActionListener(new ActionListener() {
-        @Override
-        public void ActionPerformed(ActionEvent e) {
-            String foo = 
-            //refer to Week 16
+        btnOk.addActionListener(new ActionListener() {
+            @Override
+            public void ActionPerformed(ActionEvent e) {
+                String foo = 
+                //refer to Week 16
             
+            }
         }
-    }
     
 
-
-
     }
-
-
 }
