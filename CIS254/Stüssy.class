@@ -1,3 +1,8 @@
+java.swing.*;
+java.awt.*;
+java.awt.event.
+java.awt.event.
+
 public class MainFrame extends JFrame {
     public void Initialize ( ) {
 
@@ -9,8 +14,29 @@ public class MainFrame extends JFrame {
     setVisible(true);
 
     JPanel topPanel = new JPanel();
-    JLabel isFirstName = new JLabel("Enter blah blah: "); //print indicator for name imput
+    JLabel lbFirstName = new JLabel("Enter blah blah: "); //print indicator for name imput
     topPanel.add(lbFirstName);
+    
+    JPanel centerPanel = 
+    JLabel tfFirstName = 
+    centerPanel.add(tfFirstName);
+
+    JPanel bottomPanel = 
+    JButton btnOk = 
+    bottomPanel.add(btnOk);
+    btnOk.setPreferreeSize(new Dimension());
+    btnOk.addActionListener(new ActionListener() {
+        @Override
+        public void ActionPerformed(ActionEvent e) {
+            String foo = 
+            //refer to Week 16
+            
+        }
+    }
+    
+
+
+
     }
 
 
